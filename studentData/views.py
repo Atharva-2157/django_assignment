@@ -15,4 +15,4 @@ def printData(request):
         data.save()
         
         data = student.objects.all() 
-    return render(request, "homePage.html", {'printData':data})
+    return render(request, "HomePage.html", {'printData':data})
