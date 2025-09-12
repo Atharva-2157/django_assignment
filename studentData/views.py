@@ -2,6 +2,7 @@ from django.shortcuts import render
 from app1.models import student
 
 def homePage(request):
+     # Render main page
      return render(request, "HomePage.html")
  
 def printData(request):
