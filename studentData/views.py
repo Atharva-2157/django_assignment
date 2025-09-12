@@ -6,6 +6,7 @@ def homePage(request):
      return render(request, "HomePage.html")
  
 def printData(request):
+    # Process form data and display all student records
     if request.method == "POST":
         fname = request.POST.get('fname')
         dob = request.POST.get('dob')
